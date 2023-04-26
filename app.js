@@ -11,6 +11,7 @@ app.listen(port,listen());
 app.use(cors());
 app.use(static('../public'))
 app.use(express.json());
+var vamos = 'ddd';
 app.use(express.urlencoded({ extended: false }));
 app.use(session({
     resave: true,
